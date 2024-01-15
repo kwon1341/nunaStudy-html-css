@@ -1,0 +1,22 @@
+.carousel-caption h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  text-shadow: 10px 10px 30px #775139;
+}
+
+.carousel-caption p {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 30px;
+  text-shadow: 10px 10px 30px #775139;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
