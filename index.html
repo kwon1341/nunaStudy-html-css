@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="kor">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,117 +10,35 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
   </head>
-
   <body>
-    <div class="container">
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand position-relative" href="#">
-            <img
-              src="https://wgtanghulu.com/theme/basic/img/ci.png"
-              width="210px"
-              height="45px"
-            />
+    <header class="container fixed-top pt-4 pb-4">
+      <div class="navbar pb-4 container-fluid">
+        <div class="navbar-logo">
+          <a href="#">
+            <img src="https://wgtanghulu.com/theme/basic/img/ci.png" />
           </a>
         </div>
-      </nav>
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    </div>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img
-            src="https://wgtanghulu.com/theme/basic/img/main_visual01.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Dalkom WangGa Tanghulu</h2>
-            <p>
-              아삭한 식감과 과일 과즙의 조화로 만든 디저트로 <br />빠른 회전율의
-              TAKE OUT 과일 디저트 전문 매장입니다.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img
-            src="https://wgtanghulu.com/theme/basic/img/main_visual02.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://wgtanghulu.com/theme/basic/img/main_visual03.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
+        <div class="navbar-aplication">
+          <a href="#">가맹점 개설문의</a>
+          <a href="#">해외진출 개설문의</a>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+      <div class="navbar-menu pt-4">
+        <ul class="items">
+          <li><a href="#">BRAND</a></li>
+          <li><a href="#">MENU</a></li>
+          <li><a href="#">왕가탕후루 소식</a></li>
+          <li><a href="#">FRANCHISE</a></li>
+          <li><a href="#">COMMUNITY</a></li>
+        </ul>
+      </div>
+    </header>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="app.js"></script>
   </body>
 </html>

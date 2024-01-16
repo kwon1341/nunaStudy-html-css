@@ -1,22 +1,41 @@
-.carousel-caption h2 {
-  color: white;
-  font-size: 60px;
-  font-weight: 800;
-  letter-spacing: -2px;
-  text-shadow: 10px 10px 30px #775139;
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid black;
 }
 
-.carousel-caption p {
-  color: white;
-  font-size: 25px;
-  font-weight: 500;
-  margin-top: 30px;
-  text-shadow: 10px 10px 30px #775139;
+.navbar img {
+  width: 210px;
+  height: 45px;
 }
 
-.nav-link {
+.navbar-aplication {
+  position: absolute;
+  right: 10px;
+}
+
+.navbar-aplication a {
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items li {
+  display: inline-block;
+  list-style: none;
+}
+
+.items a {
   text-decoration: none;
   color: black;
-  font-size: 15px;
-  font-weight: 700;
+  margin: 0px 60px;
 }
