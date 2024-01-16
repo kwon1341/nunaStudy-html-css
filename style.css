@@ -1,41 +1,5 @@
-.navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  border-bottom: 1px solid black;
-}
-
-.navbar img {
-  width: 210px;
-  height: 45px;
-}
-
-.navbar-aplication {
-  position: absolute;
-  right: 10px;
-}
-
-.navbar-aplication a {
-  font-size: 13px;
-  color: black;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-.navbar-menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.items li {
-  display: inline-block;
-  list-style: none;
-}
-
-.items a {
-  text-decoration: none;
-  color: black;
-  margin: 0px 60px;
+.carousel-item {
+  background-image: url(./img/main_visual01.jpg);
+  background-image: url(./img/main_visual02.jpg);
+  background-image: url(./img/main_visual03.jpg);
 }
