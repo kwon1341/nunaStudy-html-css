@@ -1,3 +1,19 @@
+body{
+  font-family: Pretendard, AppleSDGothicNeo-Regular, Malgun Gothic, dotum, sans-serif;
+}
+html, h1, h2, h3, h4, h5, h6, p, span{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  transform: rotate(0.03deg);
+}
+@font-face {
+  font-family: 'Dongle-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108_2@1.0/Dongle-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -38,4 +54,31 @@
   text-decoration: none;
   color: black;
   margin: 0px 60px;
+}
+
+/*=================  section 2  =================*/
+
+.main_menu{
+  margin-top: 80px;
+}
+.wrap{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.main_menu_header{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.main_menu_header > h2{
+  font-family: "Dongle-Regular", sans-serif;
+  line-height: 1;
+  letter-spacing: -2px;
+  color: #fc4756;
+  font-size: 70px;
+}
+.main_menu_header > p{
+  color: rgba(108, 117, 125, 0.8);
+  font-size: 1.15em;
+  font-weight: 300;
 }
