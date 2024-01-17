@@ -11,17 +11,46 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/6e648835c4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
+    <div class="cont">
+      <div class="main-logo">
+        <img src="https://wgtanghulu.com/theme/basic/img/ci.png" />
+      </div>
+      <div class="link-box">
+        <a href="#" class="inquiry">가맹점 개설문의</a>
+        <a href="#" class="inquiry">해외진출 개설문의</a>
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <nav>
+      <ul class="naviation">
+        <li>
+          <a href="#">브랜드</a>
+        </li>
+        <li>
+          <a href="#">메뉴</a>
+        </li>
+        <li>
+          <a href="#">왕가탕후루소식</a>
+        </li>
+        <li>
+          <a href="#">프렌차이즈</a>
+        </li>
+        <li>
+          <a href="#">커뮤니티</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
         <button
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="0"
           class="active"
           aria-current="true"
@@ -29,13 +58,13 @@
         ></button>
         <button
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="1"
           aria-label="Slide 2"
         ></button>
         <button
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
@@ -43,18 +72,39 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./img/main_visual01.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block location">
+            <h2>Dalkon WangGa Tanghulul</h2>
+            <p>
+              아삭한 식감과 과일 과즙의 조화로 만든 디저트로 <br />빠른 회전율의
+              TAKE OUT 과일 디저트 전문 매장입니다.
+            </p>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="./img/main_visual02.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block location">
+            <h2>상큼, 달콤, 바사삭한 식감까지!</h2>
+            <p>
+              신선하고 다양한 과일들로 상큼, 달콤, 바사삭한 식감에
+              <br />영양소까지 갖춘 건강 1등 탕후루 입니다.
+            </p>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="./img/main_visual03.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block location">
+            <h2>남녀노소 모두 함께 즐기세요</h2>
+            <p>
+              이색적인 디저트로 SNS, 인스타, YouTube, TicTok, TV에서도 핫한
+              <br />다양한 연령층에서 사랑받는 달콤한 디저트 입니다.
+            </p>
+          </div>
         </div>
       </div>
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleIndicators"
+        data-bs-target="#carouselExampleCaptions"
         data-bs-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -63,7 +113,7 @@
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleIndicators"
+        data-bs-target="#carouselExampleCaptions"
         data-bs-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -75,5 +125,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
