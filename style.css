@@ -40,6 +40,8 @@
   margin: 0px 60px;
 }
 
+
+/* 프랜차이즈 */
 .main_con {
   margin-top: 80px;
 }
@@ -149,8 +151,10 @@ main {
     --tertiaryColorB: #5f492f;
     --tBasic: 15px;
 }
+/* 프랜차이즈 */
 
 @media screen and (max-width: 1230px){
+  /* 프랜차이즈 */
   .main_con.franchise ul {
     gap: 1vw;
     padding-left: 3vw;
@@ -166,9 +170,11 @@ main {
   .main_con.franchise ul li::before {
     width: 28vw;
   }
+  /* 프랜차이즈 */
 }
 
 @media (max-width: 1023px) {
+  /* 프랜차이즈 */
   .main_con.franchise ul {
     padding-top: 0;
     flex-wrap: wrap;
@@ -208,9 +214,11 @@ main {
   .main_con.franchise ul li img {
     width: 50px;
   }
+  /* 프랜차이즈 */
 }
 
 @media screen and (max-width: 620px){
+  /* 프랜차이즈 */
 	.main_con {
     margin-top: 12vw;
   }
@@ -247,4 +255,5 @@ main {
   .main_con.franchise ul li p {
     text-align: left;
   }
+  /* 프랜차이즈 */
 }
