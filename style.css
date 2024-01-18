@@ -20,6 +20,7 @@ html, h1, h2, h3, h4, h5, h6, p, span{
   align-items: center;
   width: 100%;
   border-bottom: 1px solid black;
+}
 .cont {
   position: relative;
   background-color: white;
@@ -194,7 +195,7 @@ main {
   }
 }
 .main_con.franchise ul li h3 {
-  font-size: var(--t4);
+  /*font-size: var(--t4);*/
 }
 .main_con.franchise ul li p {
   text-align: center;
@@ -360,3 +361,4 @@ main {
   font-size: 1.15em;
   font-weight: 300;
 }
+
