@@ -1,3 +1,26 @@
+body{
+  font-family: Pretendard, AppleSDGothicNeo-Regular, Malgun Gothic, dotum, sans-serif;
+}
+html, h1, h2, h3, h4, h5, h6, p, span{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  transform: rotate(0.03deg);
+}
+@font-face {
+  font-family: 'Dongle-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108_2@1.0/Dongle-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
 .cont {
   position: relative;
   background-color: white;
@@ -172,7 +195,7 @@ main {
   }
 }
 .main_con.franchise ul li h3 {
-  font-size: var(--t4);
+  /*font-size: var(--t4);*/
 }
 .main_con.franchise ul li p {
   text-align: center;
@@ -315,7 +338,7 @@ main {
 
 .section4headertext {
     color: rgb(246, 79, 93);
-    
+
 }
 .section4subheadertext {
     color: rgb(227, 225, 222);
@@ -356,13 +379,13 @@ main {
     background: #000;
     margin: 18px 0;
     }
-    
+
     .section4button {
         background: 0;
         border: 0;
         padding: 0;
         cursor: pointer
-    } 
+    }
     .section4arrow{
         width:80px;
         height:30px;
@@ -371,7 +394,7 @@ main {
       }
       .section4arrow:before{
         content:'';
-        width:20px; 
+        width:20px;
         weight:20px;
         position:absolute;
         left:54%;
@@ -379,7 +402,7 @@ main {
         border-left:2px solid #000;
         border-top:2px solid #000;
         transform:translate(-50%,-50%) rotate(54deg);
-      } 
+      }
       .section4arrow:after{
         content:'';
         width:45px;
@@ -393,12 +416,41 @@ main {
 
       .section4arrow:hover::before {
         transition: all 0.3s;
-        left:85%; 
+        left:85%;
       }
         .section4arrow:hover::after {
             transition: all 0.3s;
             right:5px;
              width: 70px;
-            
+
         }
-    
+
+
+
+/*=================  section 2  =================*/
+
+.main_menu{
+  margin-top: 80px;
+}
+.wrap{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.main_menu_header{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.main_menu_header > h2{
+  font-family: "Dongle-Regular", sans-serif;
+  line-height: 1;
+  letter-spacing: -2px;
+  color: #fc4756;
+  font-size: 70px;
+}
+.main_menu_header > p{
+  color: rgba(108, 117, 125, 0.8);
+  font-size: 1.15em;
+  font-weight: 300;
+}
+/*=================  section 2  =================*/
