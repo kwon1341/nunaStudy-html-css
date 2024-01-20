@@ -221,6 +221,7 @@ main {
 }
 
 :root{
+    --primaryColorL: #fb3142;
     --secondaryColorL: #ffa600;
     --secondaryColor: #ff8400;
     --secondaryColorB: #ff7800;
@@ -228,6 +229,7 @@ main {
     --tertiaryColor: #957651;
     --tertiaryColorB: #5f492f;
     --tBasic: 15px;
+    --gray600: #6c757d;
 }
 /* 프랜차이즈 */
 
@@ -454,3 +456,104 @@ main {
   font-weight: 300;
 }
 /*=================  section 2  =================*/
+
+/* =================  news  =================*/
+.news ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+  margin-top: 40px;
+  color: var(--gray500);
+}
+
+.news ul li.on {
+  background: var(--primaryColorL);
+  color: #fff;
+}
+.news ul li {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  border-radius: 18px;
+  padding: 0 20px;
+}
+
+.news ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.news1{
+  text-align: center;
+  margin: 40px 0;
+}
+
+.news1 h2{
+    font-family: "Dongle", sans-serif;
+    line-height: 1;
+    letter-spacing: -2px;
+    color: #fc4756;
+    font-size: 90px;
+}
+
+.boxing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapping {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.boxing a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  list-style:none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.wrapper ul{
+  list-style:none;
+}
+.wrap1{
+  flex-basis: calc(25% - 1em); /* 너비를 일정하게 4개로 나누고, 간격을 고려해 1em만큼 뺍니다. */
+  margin: 0.5em;
+}
+.img_link {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 1230px){
+.wrapping {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+}
+
+@media (max-width: 1023px){
+
+
+
+
+}
+
+@media (max-width: 620px){
+
+
+
+
+}
