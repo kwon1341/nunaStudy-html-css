@@ -153,6 +153,10 @@ p {
   color: rgb(165, 154, 154);
 }
 
+main {
+  /* margin-top: 200px; */
+}
+
 .franchise {
   display: block;
 }
