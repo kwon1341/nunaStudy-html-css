@@ -17,6 +17,12 @@ span , a{
   border: 0;
   transform: rotate(0.03deg);
 }
+ol, ul, li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
 @font-face {
   font-family: "Dongle-Regular";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108_2@1.0/Dongle-Regular.woff")
@@ -528,14 +534,36 @@ main {
 /*=================  footer  =================*/
 .footer{
   background: #f0f0f0;
-  padding: 70px 0;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}
+.footer-wrap{
+  display: flex;
+  max-width: 1200px;
+}
+.footer-wrap > ul {
+  display: flex;
+  gap: 50px;
+}
+.footer-ul > li {
+  display: inline-block;
+  /*margin-top: 10px;*/
+  margin-right: 15px;
+}
+
+.footer-ul > li > h2{
+  font-size: 1.5rem;
+}
+.footer-icon {
+  display: flex;
+  gap: 20px;
+}
+.footer-icon > li {
+  cursor: pointer;
 }
 
 /*=================  footer  =================*/
-.footer{
-  background: #f0f0f0;
-  padding: 70px 0;
-}
 
 /*=================  news  =================*/
 .news ul {
