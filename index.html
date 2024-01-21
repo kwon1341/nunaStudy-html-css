@@ -9,50 +9,56 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
     <script
       src="https://kit.fontawesome.com/2c827c8cca.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-    <script
-      src="https://kit.fontawesome.com/6e648835c4.js"
-      crossorigin="anonymous"
-    ></script>
+    <title>누나탕후루</title>
   </head>
   <body>
     <!-- dev/Son logo -->
-    <div class="cont">
-      <div class="main-logo">
-        <a href="#">
-          <img src="https://wgtanghulu.com/theme/basic/img/ci.png" />
-        </a>
-      </div>
-      <div class="link-box">
-        <a href="#" class="inquiry">가맹점 개설문의</a>
-        <a href="#" class="inquiry">해외진출 개설문의</a>
-        <i class="fa-solid fa-bars"></i>
+    <div class="cont-wrap">
+      <div class="cont">
+        <div class="main-logo">
+          <a href="./index.html">
+            <img src="img\누나탕후루.png" />
+          </a>
+        </div>
+        <div class="link-box">
+          <a href="#" class="inquiry">가맹점 개설문의</a>
+          <a href="#" class="inquiry">해외진출 개설문의</a>
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </div>
     <!-- dev/Son list -->
     <nav>
-      <ul class="naviation">
-        <li>
-          <a href="#">브랜드</a>
-        </li>
-        <li>
-          <a href="#">메뉴</a>
-        </li>
-        <li>
-          <a href="#">왕가탕후루소식</a>
-        </li>
-        <li>
-          <a href="#">프렌차이즈</a>
-        </li>
-        <li>
-          <a href="#">커뮤니티</a>
-        </li>
-      </ul>
+      <div class="nav-wrap">
+        <ul class="navigation">
+          <li>
+            <a href="brand.html">BRAND</a>
+          </li>
+          <li>
+            <a href="#">MENU</a>
+          </li>
+          <li>
+            <a href="news.html">누나탕후루 소식</a>
+          </li>
+          <li>
+            <a
+            href="franchise.html"
+            >FRANCHISE</a
+          >
+          </li>
+          <li>
+            <a href="#">COMMUNITY</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- slide button dev/Son-->
     <div id="carouselExampleCaptions" class="carousel slide">
@@ -83,19 +89,19 @@
         <div class="carousel-item active">
           <img src="./img/main_visual01.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block location">
-            <h2>Dalkon WangGa Tanghulul</h2>
+            <h2>Nuna Tanghulu</h2>
             <p>
-              아삭한 식감과 과일 과즙의 조화로 만든 디저트로 <br />빠른 회전율의
-              TAKE OUT 과일 디저트 전문 매장입니다.
+              손빠른 코딩과 코딩 레슨의 조화로 만든 강의로 <br />빠른 회전율의
+              TAKE OUT 코딩 전문 매장입니다.
             </p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./img/main_visual02.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block location">
-            <h2>상큼, 달콤, 바사삭한 식감까지!</h2>
+            <h2>이해가 쉽고 간결한 코딩까지!</h2>
             <p>
-              신선하고 다양한 과일들로 상큼, 달콤, 바사삭한 식감에
+              신선하고 다양한 코딩들로 이해가 쉽고 간결한 코딩에
               <br />영양소까지 갖춘 건강 1등 탕후루 입니다.
             </p>
           </div>
@@ -105,8 +111,8 @@
           <div class="carousel-caption d-none d-md-block location">
             <h2>남녀노소 모두 함께 즐기세요</h2>
             <p>
-              이색적인 디저트로 SNS, 인스타, YouTube, TicTok, TV에서도 핫한
-              <br />다양한 연령층에서 사랑받는 달콤한 디저트 입니다.
+              이색적인 코딩으로 SNS, 인스타, YouTube, TicTok, TV에서도 핫한
+              <br />다양한 연령층에서 사랑받는 달콤한 코딩 입니다.
             </p>
           </div>
         </div>
@@ -138,40 +144,54 @@
           <div class="wrap">
             <div class="main_menu_header">
               <h2>메뉴소개</h2>
-              <p>다양한 메뉴로 눈과 입이 즐거운 달콤왕가탕후루</p>
+              <p>다양한 강의로 눈과 손이 즐거운 누나탕후루</p>
             </div>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="assets/menu_new_1.png" class="d-block w-100" alt="...">
+            <!-- Swiper -->
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/menu_new_1.png" alt="...">
                 </div>
-                <div class="carousel-item">
-                  <img src="assets/menu_new_2.png" class="d-block w-100" alt="...">
+                <div class="swiper-slide">
+                  <img src="assets/menu_new_2.png" alt="...">
                 </div>
-                <div class="carousel-item">
-                  <img src="assets/menu_new_3.png" class="d-block w-100" alt="...">
+                <div class="swiper-slide">
+                  <img src="assets/menu_new_3.png" alt="...">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/menu_new_4.png" alt="...">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/menu_new_5.png" alt="...">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/menu_new_6.png" alt="...">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/menu_new_7.png" alt="...">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/menu_new_8.png" alt="...">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/menu_new_9.png" alt="...">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/menu_new_10.png" alt="...">
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
-
-
           </div>
         </div>
         <!-- ========================== section3 ============================ -->
 
         <div class="main_con franchise">
-          <div class="main_con_header">
+          <div class="main_menu_header">
             <h2>창업안내</h2>
             <p>
-              달콤왕가탕후루는 빠른 회전율을 갖춘 TAKE OUT 과일디저트 전문
+              누나탕후루는 빠른 회전율을 갖춘 TAKE OUT 코딩 전문
               매장입니다
             </p>
           </div>
@@ -190,7 +210,7 @@
               <i class="fa-solid fa-camera"></i>
               <h3>가맹점 인테리어</h3>
               <p>
-                전국에 오픈한 달콤왕가탕후루의<br />
+                전국에 오픈한 누나탕후루의<br />
                 모습을 확인할 수 있습니다.
               </p>
             </li>
@@ -199,7 +219,7 @@
               <i class="fa-solid fa-user-plus"></i>
               <h3>가맹점 개설문의</h3>
               <p>
-                달콤왕가탕후루 창업에 대해<br />
+                누나탕후루 창업에 대해<br />
                 친절하게 안내해드리겠습니다.
               </p>
             </li>
@@ -208,30 +228,22 @@
               <i class="fa-solid fa-house"></i>
               <h3>매장찾기</h3>
               <p>
-                전국 달콤왕가탕후루 <br />
-                500호점오픈!
+                전국 누나탕후루 <br />
+                500강의오픈!
               </p>
             </li>
           </ul>
         </div>
 
         <!-- ========================== section3 ========================== -->
-      </main>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"
-      ></script>
-      <script src="app.js"></script>
 
-      <body>
-        <!-- dev/Cho section4.. -->
+        <!-- dev/Cho section4 -->
         <div class="campagine-section section4backdgroundimg">
           <div>
-            <header class="section4header">
-              <h2 class="section4headertext">달콤왕가탕후루는</h2>
-              <p class="section4subheadertext">
-                Fruit Dessert NO.1 달콤왕가탕후루를 소개 합니다.
+            <header class="main_menu_header">
+              <h2 >누나탕후루는</h2>
+              <p style="color: #fff; opacity: 0.7; margin-top: 10px; font-size: 1.05em; font-weight: 300;">
+                Coding NO.1 누나탕후루를 소개 합니다.
               </p>
             </header>
             <div class="container">
@@ -251,7 +263,7 @@
                           <h4 class="card-title">브랜드 소개</h4>
                           <p class="section4h4footer"></p>
                           <p class="card-text">
-                            달콤왕가탕후루는 과일디저트 1위 브랜드로
+                            누나탕후루는 코딩 강의 1위 브랜드로
                             자리잡았습니다
                           </p>
                           <div class="section4button section4arrow">
@@ -281,7 +293,7 @@
                           <h4 class="card-title">브랜드 현황</h4>
                           <p class="section4h4footer"></p>
                           <p class="card-text">
-                            이색적인 디저트로 남녀노소 사랑받는 달콤왕가탕후루
+                            이색적인 코딩으로 남녀노소 사랑받는 누나탕후루
                           </p>
                           <div class="section4button section4arrow">
                             <a
@@ -300,7 +312,7 @@
                     <div class="row g-0">
                       <div class="col-md-4 col-sm-12 text-center">
                         <img
-                          src="https://wgtanghulu.com/theme/basic/img/main_about03.png"
+                          src="https://yt3.googleusercontent.com/ytc/AIf8zZSHpzD-iH3EPif3ovOEUB9rvsBmp52xDklv3IG3=s176-c-k-c0x00ffffff-no-rj"
                           class="section4cardimg"
                           alt="..."
                         />
@@ -310,7 +322,7 @@
                           <h4 class="card-title">브랜드 Youtube</h4>
                           <p class="section4h4footer"></p>
                           <p class="card-text">
-                            Youtube로 만나보는 달콤왕가탕후루의 상큼 달콤 디저트
+                            Youtube로 만나보는 누나탕후루의 이해 쉬운 코딩
                             문화
                           </p>
                           <div class="section4button section4arrow">
@@ -330,7 +342,7 @@
                     <div class="row g-0">
                       <div class="col-md-4 col-sm-12 text-center">
                         <img
-                          src="https://wgtanghulu.com/theme/basic/img/main_about04.png"
+                          src="img\누나_5.png"
                           class="section4cardimg"
                           alt="..."
                         />
@@ -340,7 +352,7 @@
                           <h4 class="card-title">오시는 길</h4>
                           <p class="section4h4footer"></p>
                           <p class="card-text">
-                            (주)달콤나라앨리스로 찾아 오시는 길입니다.
+                            (주)코딩알려주는누나로 찾아 오시는 길입니다.
                           </p>
                           <div class="section4button section4arrow">
                             <a
@@ -357,13 +369,95 @@
             </div>
           </div>
         </div>
-      </body>
 
+        <!--   footer     -->
+        <footer class="footer">
+          <div class="footer-wrap">
+            <ul>
+              <li class="footer-li">
+                <ul class="footer-ul">
+                  <li>이용약관</li>
+                  <li style="font-weight: 600;">개인정보처리방침</li>
+                  <li>
+                    <address class="address">
+                      <div>상호 : 누나탕후루</div>
+                      <div>대표자(성명) : 손응수, 이효진, 조승환, 박병권</div>
+                      <div>© Copyright 코딩알려주는 누나 2024</div>
+                      <div>문의 : codingnuna1008@gmail.com</div>
+                    </address>
+                  </li>
+                </ul>
+
+              </li>
+              <li class="footer-li">
+                <ul class="footer-ul">
+                  <li><h2>Contact</h2></li>
+                  <li><p>codingnuna1008@gmail.com</p></li>
+                  <li>
+                    <small>
+                      <strong>평일</strong>
+                      10:00 ~ 18:00
+                    </small>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer-li">
+                <ul class="footer-ul">
+                  <li><h2>Bank Info</h2></li>
+                  <li><p>카카오뱅크 / 누나탕후루</p></li>
+                  <li>
+                    <strong style="font-size: 1.3rem;">123-456-7890</strong>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer-li">
+                <ul class="footer-icon">
+                  <li>
+                    <img src="assets/sns_insta.svg" alt="insta"/>
+                  </li>
+                  <li>
+                    <img src="assets/sns_yt.svg" alt="youtube"/>
+                  </li>
+                  <li>
+                    <img src="assets/sns_tt.svg" alt="tictoc"/>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </footer>
+      </main>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"
       ></script>
+      <!-- Swiper's JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper('.swiper', {
+          slidesPerView: 4,
+          direction: getDirection(),
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          on: {
+            resize: function () {
+              swiper.changeDirection(getDirection());
+            },
+          },
+        });
+
+        function getDirection() {
+          var windowWidth = window.innerWidth;
+          var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+          return direction;
+        }
+      </script>
     </div>
   </body>
 </html>
