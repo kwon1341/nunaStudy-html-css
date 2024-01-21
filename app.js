@@ -1,5 +1,5 @@
 const menu = document.querySelector(".fa-bars");
-const list = document.querySelectorAll(".naviation>li");
+const list = document.querySelectorAll(".navigation>li");
 
 // 메뉴 토글 동작
 menu.addEventListener("click", () => {
