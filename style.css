@@ -148,7 +148,8 @@ p {
 
 /* 프랜차이즈 */
 .main_con {
-  margin-top: 80px;
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
 
 .main_con_header {
@@ -660,3 +661,4 @@ main {
 }
 
 /* =================  news  =================*/
+
